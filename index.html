@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal Webpage</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <section class="nametitle">
+    <h1>Vaishnavi Kappagantula</h1>
+  </section>
+
+  <section class="section" id="about-me">
+    <h2>About Me</h2>
+    <p>Hello! I'm Vaishnavi, a first-year undergraduate student taking CSE at IIIT Hyderabad. I have a passion for learning and enjoy exploring new ideas across any field. I’m a Carnatic music singer and a mathematics coach for 5th-grade students. I also actively volunteer with the Navadweepa Foundation, a nonprofit organization dedicated to supporting and uplifting underprivileged communities.</p>
+  </section>
+
+  <section class="section" id="photos-section">
+    <h2>Photos of My Birthplace</h2>
+    <p>I was born in Miami, FL, USA in April 2006 and lived there for 16 years. Here are some photos of my city!</p>
+    <div class="photos">
+      <div class="photo-item"><img src="images/profile.jpg"><p>Me!</p></div>
+      <div class="photo-item"><img src="images/lake1.HEIC"><p>The lake my home overlooked</p></div>
+      <div class="photo-item"><img src="images/bayside.png"><p>Bayside</p></div>
+      <div class="photo-item"><img src="images/doral.png"><p>My high school!</p></div>
+      <div class="photo-item"><img src="images/road.HEIC"><p>Sunset</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="schools">
+    <h2>Education Background - Schools I Studied At</h2>
+    <ul>
+      <li>E.W.F. Stirrup Elementary (until grade 5)</li>
+      <li>Doral Academy Charter Middle (grade 6-grade 8)</li>
+      <li>Doral Academy Charter High School of Science (grade 9-grade 10)</li>
+      <li>CHIREC International School (intermediate education - grade 11 & 12)</li>
+    </ul>
+  </section>
+
+  <section class="section" id="achievements">
+    <h2>Achievements</h2>
+    <h3>Mathematics Competition Awards:</h3>
+    <ul>
+      <li>January 2018 Regional FAMAT Algebra 1 7th Place</li>
+      <li>March 2018 Regional FAMAT Algebra 1 4th Place</li>
+      <li>March 2018 Invitational FAMAT Algebra 1 4th Place</li>
+      <li>American Heritage Math Competition 2019 3rd Place</li>
+      <li>American Heritage Math Competition 2020 7th Place</li>
+      <li>MATHCOUNTS Regionals 2020 Team 3rd Place</li>
+      <li>Continental Math League 2020 1st Place</li>
+      <li>FAMAT State Convention 2022 Mu Area and Volume 19th Place</li>
+      <li>Meeting of the Math Minds 2022 4th Place</li>
+    </ul>
+    <h3>Cultural Awards and Performances:</h3>
+    <ul>
+      <li>2018 Bhagavath Gita Chanting Competition 1st Place</li>
+      <li>2018 Telugu Association of South Florida Carnatic Music Performance for Deepavali</li>
+      <li>2019 Telugu Association of South Florida Carnatic Music Performance for Ugadi</li>
+      <li>Carnatic Vocal Level 1 Degree - SAMPADA University 2020</li>
+      <li>Carnatic Vocal Level 2 Degree - SAMPADA University 2025</li>
+    </ul>
+  </section>
+
+  <section class="section" id="technical-skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Programming Languages:</strong> C, Java, Python</li>
+      <li><strong>Data Structures & Algorithms:</strong> Basic understanding and implementation</li>
+    </ul>
+  </section>
+  
+
+  <section class="section" id="cv">
+    <h2>My CV</h2>
+    <p><a href="cv.pdf" target="_blank">Click here to download my CV</a></p>
+  </section>
+
+  <section class="section">
+    <h2>Text Analyzer</h2>
+    <textarea id="textInput" rows="20" cols="100" placeholder="Enter text here to analyze"></textarea>
+    <br>
+    <button onclick="analyzeText()">Analyze</button>
+    <div id="output"></div>
+  </section>
+
+</body>
+</html>

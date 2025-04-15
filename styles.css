@@ -1,0 +1,52 @@
+body {
+    font-family: "Slabo 27px", serif;
+    background-color: #f0f0f0;
+    color: #141616;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .nametitle {
+    background-color: #78866B;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background-color: #f0f0f0;
+    font-size: 20px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 1rem;
+  }
+  p{
+    font-size: 20px
+  }
+  
+  .photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .photo-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
